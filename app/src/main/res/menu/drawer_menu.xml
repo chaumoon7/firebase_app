@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_recent"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Recent" />
+        <item
+            android:id="@+id/nav_offline"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Offline" />
+        <item
+            android:id="@+id/nav_bin"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="Bin" />
+    </group>
+
+    <item android:title="System">
+        <menu>
+            <item
+                android:id="@+id/nav_notifications"
+                android:icon="@android:drawable/ic_popup_reminder"
+                android:title="Notifications" />
+            <item
+                android:id="@+id/nav_backups"
+                android:icon="@android:drawable/ic_menu_upload"
+                android:title="Backups" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@android:drawable/ic_menu_preferences"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="Help &amp; feedback" />
+        </menu>
+    </item>
+</menu>
